@@ -1,0 +1,41 @@
+.important-titles {
+    @include titles;
+}
+
+.image-adoption {
+    @include images-adoption;
+
+}
+
+.img-one {
+    &:hover {
+        transform: $transform-images
+    }
+}
+
+.img-two {
+    &:hover {
+        transform: $transform-images
+    }
+}
+
+.img-three {
+    &:hover {
+        transform: $transform-images
+    }
+}
+
+.img-four {
+    &:hover {
+        transform: $transform-images
+    }
+}
+
+.paw {
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    animation-duration: 10s;
+    animation-name: movimiento;
+    animation-iteration-count: infinite;
+}

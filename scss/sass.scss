@@ -1,0 +1,14 @@
+@import '../scss/utilities/variables';
+@import '../scss/utilities/mixin';
+@import '../scss/base/reset';
+@import '../scss/layout/header';
+@import '../scss/layout/footer';
+@import '../scss/views/home';
+@import '../scss/views/nosotros';
+@import '../scss/views/partners';
+@import '../scss/views/adoption';
+@import '../scss/views/404';
+@import '../scss/views/contactUs';
+
+
+@include animation;

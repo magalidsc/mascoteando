@@ -1,0 +1,63 @@
+// Home
+
+.inicio-container {
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    .general {
+        display: flex;
+
+        .intro {
+            width: $width-home/2;
+
+            .intro-title {
+                justify-content: center;
+                margin-top: 20px;
+
+                .important-titles {
+                    @include titles
+                }
+
+            }
+        }
+
+        .intro-p {
+            justify-content: center;
+
+            .p-intro {
+                font-size: map-get($fonts, paragraph);
+                font-style: italic;
+                text-align: center;
+
+            }
+        }
+
+        .intro-button {
+            display: $display;
+            @if $display == flex {
+                justify-content: center;
+            } @else {
+                background-color: aqua;
+            }
+            
+            align-items: center;
+            margin-top: 150px;
+
+            .button {
+
+                .start-button {
+                    font-size: map-get($fonts, buttons);
+                    text-decoration: none;
+                    
+                }
+            }
+        }
+
+        .carousel-format {
+            width: $width-home/2;
+            margin-left: 60px;
+            margin-top: 25px;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+// Partners
+
+.partners-p {
+    margin: 10px;
+}
+
+.partners-ol {
+    margin: 10px;
+    list-style: none;
+
+    .li-partners::before {
+        content: '✔';
+        margin-right: 8px;
+    }
+    
+}
+
+
+.form {
+    margin: 60px 20px;
+}
