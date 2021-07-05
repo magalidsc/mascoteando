@@ -7,7 +7,7 @@
     background-color: #FEF9EF; }
 
 header .logo-header {
-  height: 150px;
+  height: 180px;
   width: auto; }
 
 header .intro-menu {
@@ -29,7 +29,7 @@ header .intro-menu {
   #menu ul li {
     position: relative;
     float: left;
-    margin: 0;
+    margin: auto;
     padding: 0; }
     #menu ul li:hover {
       background-color: #FFCB77; }
@@ -40,17 +40,16 @@ header .intro-menu {
     position: absolute;
     top: 100%;
     left: 0;
+    margin-bottom: 0px;
     padding: 0;
     z-index: 1;
     background-color: #227C9D; }
     #menu ul ul li {
-      float: none;
-      width: 150px; }
+      float: none; }
       #menu ul ul li:hover {
         display: block; }
     #menu ul ul a {
-      line-height: 120%;
-      padding: 10px 15px; }
+      line-height: 120%; }
   #menu ul li:hover {
     display: block; }
 
@@ -73,24 +72,23 @@ header .intro-menu {
     padding-top: 20px; }
   .footer .footer-container {
     display: flex;
+    width: 100%;
     justify-content: center;
     padding-bottom: 20px; }
     .footer .footer-container .div-footer {
-      width: 200px;
+      width: 15%;
       display: flex;
       justify-content: space-around; }
 
 .inicio-container {
   flex-direction: column;
-  margin-top: 20px;
   margin-bottom: 20px; }
   .inicio-container .general {
     display: flex; }
     .inicio-container .general .intro {
       width: 50%; }
       .inicio-container .general .intro .intro-title {
-        justify-content: center;
-        margin-top: 20px; }
+        justify-content: center; }
         .inicio-container .general .intro .intro-title .important-titles {
           color: #17C3B2;
           margin-bottom: 20px;
@@ -106,8 +104,7 @@ header .intro-menu {
     .inicio-container .general .intro-button {
       display: flex;
       justify-content: center;
-      align-items: center;
-      margin-top: 150px; }
+      align-items: center; }
       .inicio-container .general .intro-button .button .start-button {
         font-size: 20px;
         text-decoration: none; }

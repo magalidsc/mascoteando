@@ -10,9 +10,17 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^6.0.0",
-    "nodemon": "^2.0.7"
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.9"
   },
   "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magalidsc/mascoteando.git"
+  },
+  "bugs": {
+    "url": "https://github.com/magalidsc/mascoteando/issues"
+  },
+  "homepage": "https://github.com/magalidsc/mascoteando#readme",
   "description": ""
 }
