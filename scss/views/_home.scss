@@ -2,7 +2,6 @@
 
 .inicio-container {
     flex-direction: column;
-    // margin-top: 20px;
     margin-bottom: 20px;
 
     .general {
@@ -13,7 +12,6 @@
 
             .intro-title {
                 justify-content: center;
-                // margin-top: 20px;
 
                 .important-titles {
                     @include titles
@@ -42,7 +40,6 @@
             }
             
             align-items: center;
-            // margin-top: 150px;
 
             .button {
 
