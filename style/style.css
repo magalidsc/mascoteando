@@ -4,7 +4,7 @@
   padding: 0;
   font-family: 'Lato', sans-serif; }
   * body {
-    background-color: #FEF9EF; }
+    background-color: #fdfcdc; }
 
 header .logo-header {
   height: 180px;
@@ -13,10 +13,11 @@ header .logo-header {
 header .intro-menu {
   display: flex;
   justify-content: flex-end;
-  background-image: linear-gradient(to right, #FEF9EF, #227C9D); }
+  background-image: linear-gradient(to right, #fdfcdc, #227C9D); }
 
 #menu ul {
-  list-style: none; }
+  list-style: none;
+  margin-bottom: 0px; }
   #menu ul a {
     display: block;
     color: #fff;
