@@ -6,6 +6,10 @@
   * body {
     background-color: #fdfcdc; }
 
+@media (max-width: 768px) {
+  .carousel {
+    display: none; } }
+
 header .logo-header {
   height: 180px;
   width: auto; }
@@ -110,7 +114,7 @@ header .intro-menu {
         font-size: 20px;
         text-decoration: none; }
     .inicio-container .general .carousel-format {
-      width: 50%;
+      width: 100%;
       margin-left: 60px;
       margin-top: 25px; }
 
