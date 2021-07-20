@@ -86,37 +86,28 @@ header .intro-menu {
       justify-content: space-around; }
 
 .inicio-container {
-  flex-direction: column;
   margin-bottom: 20px; }
-  .inicio-container .general {
-    display: flex; }
-    .inicio-container .general .intro {
-      width: 50%; }
-      .inicio-container .general .intro .intro-title {
-        justify-content: center; }
-        .inicio-container .general .intro .intro-title .important-titles {
-          color: #17C3B2;
-          margin-bottom: 20px;
-          text-align: center;
-          margin: 20px;
-          font-style: bold; }
-    .inicio-container .general .intro-p {
-      justify-content: center; }
-      .inicio-container .general .intro-p .p-intro {
-        font-size: 22px;
-        font-style: italic;
-        text-align: center; }
-    .inicio-container .general .intro-button {
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-      .inicio-container .general .intro-button .button .start-button {
-        font-size: 20px;
-        text-decoration: none; }
-    .inicio-container .general .carousel-format {
-      width: 100%;
-      margin-left: 60px;
-      margin-top: 25px; }
+  .inicio-container .general .intro {
+    width: 100%; }
+    .inicio-container .general .intro .intro-title .important-titles {
+      color: #17C3B2;
+      margin-bottom: 20px;
+      text-align: center;
+      margin: 20px;
+      font-style: bold; }
+  .inicio-container .general .intro-p {
+    justify-content: center; }
+    .inicio-container .general .intro-p .p-intro {
+      font-size: 22px;
+      font-style: italic;
+      text-align: center; }
+  .inicio-container .general .intro-button .button .start-button {
+    font-size: 20px;
+    text-decoration: none; }
+  .inicio-container .general .carousel-format {
+    width: 100%;
+    margin: auto;
+    margin-top: 25px; }
 
 .nosotros-container .important-titles {
   color: #17C3B2;
