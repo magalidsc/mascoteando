@@ -1,6 +1,7 @@
 // Header
 
 header {
+    margin-bottom: 50px;
 
     .logo-header{
         height: 180px;
@@ -87,5 +88,69 @@ header {
             .link {
                 text-decoration: none
             }
+    }
+}
+
+.menu {
+    background-image: linear-gradient(to left, $body-bg-color, $header-footer-bg-color) ;
+
+    ul {
+        list-style:none;
+        margin-bottom: 0px;
+
+        a {
+            display:block;
+            color:#fff;
+            text-decoration: none;
+            font-weight:400;
+            font-size: map-get($fonts, menus);
+            padding: 10px;
+            letter-spacing:2px;
+            font-weight: bolder;
+        }
+
+        li {
+            position:relative;
+            float:left;
+            margin:auto;
+            padding:0;
+            
+                
+                &:hover{
+                    background-color:$button-color;
+                }
+
+                &:hover > ul {
+                    display: block;
+                }
+        }
+
+        ul {
+            display: none;
+            position: absolute;
+            top:100%;
+            left:0;
+            margin-bottom: 0px;
+            padding:0;
+            z-index: 1;
+            background-color: $header-footer-bg-color;
+
+                li {
+                    float: none;
+                   
+                    &:hover {
+                            display: block;
+                        }
+                }
+
+                a {
+                    line-height:120%;
+                    
+                }
+        }
+
+        li:hover {
+            display: block;
+        }
     }
 }
