@@ -2,7 +2,7 @@
 
 
 .container-contact-us {
-    margin: 30px;
+    margin: 3rem;
 
     .important-titles {
         @include titles;
@@ -11,7 +11,7 @@
     .google-map {
         display: flex;
         justify-content: center;
-        margin: 30px;
+        margin: 3rem;
     }
 }
 

@@ -1,10 +1,10 @@
 // Header
 
 header {
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
 
     .logo-header{
-        height: 180px;
+        height: 12rem;
         width: auto;
     }
 
@@ -27,8 +27,8 @@ header {
             text-decoration: none;
             font-weight:400;
             font-size: map-get($fonts, menus);
-            padding: 10px;
-            letter-spacing:2px;
+            padding: 1rem;
+            letter-spacing:0.2rem;
             font-weight: bolder;
         }
 
@@ -81,8 +81,8 @@ header {
         display: inline-block;  
         font-size: map-get($fonts, menus);
         font-family: 'Lato', sans-serif;
-        word-spacing: 30px;
-        margin-left: 700px;
+        word-spacing: 3rem;
+        margin-left: 70rem;
 
 
             .link {
@@ -104,8 +104,8 @@ header {
             text-decoration: none;
             font-weight:400;
             font-size: map-get($fonts, menus);
-            padding: 10px;
-            letter-spacing:2px;
+            padding: 1rem;
+            letter-spacing:0.2rem;
             font-weight: bolder;
         }
 
@@ -113,7 +113,6 @@ header {
             position:relative;
             float:left;
             margin:auto;
-            padding:0;
             
                 
                 &:hover{

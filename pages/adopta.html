@@ -32,24 +32,43 @@
     <header>
         <img src="../images/logo.png" class="logo-header" alt="Logo del encabezado">
 
-        <nav class="intro-menu" id="menu">
+         <!-- menú desplegable -->
+         <nav class="navbar navbar-expand-lg navbar-dark menu">
             <div>
                 <img class="paw animation" src="../images/huella.png" alt="">
             </div>
-            <ul class="header-menu">
-                <li><a href="../index.html" class="link">Inicio</a></li>
-                <li><a href="../pages/nosotros.html" class="link">Nosotros</a>
-                <!-- menú desplegable -->
-                <ul>
-                    <li><a href="../pages/partners.html" class="link">Partners</a></li>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nosotros</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="../pages/nosotros.html">Sobre nosotros</a></li>
+                  <li><a class="dropdown-item" href="../pages/partners.html">Partners</a></li>
                 </ul>
-                <!-- fin menu desplegable -->
-                </li>
-                <li><a href="../pages/adopta.html" class="link">Adopta</a></li>
-               
-                <li><a href="../pages/contactanos.html" class="link">Contactanos</a></li>
-            </ul>
+              </li>
+  
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/adopta.html">Adopta</a>
+            </li>
+  
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../pages/contactanos.html">Contactanos</a>
+          </li>
+              </ul>
+            </div>
+          </div>
         </nav>
+        <!-- fin menú -->
     </header>
 
     <section>
