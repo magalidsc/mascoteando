@@ -138,21 +138,26 @@ header {
     margin: 2rem;
     font-style: bold; }
 
-.inicio-container .section-index .intro-p {
-  justify-content: center; }
-  .inicio-container .section-index .intro-p .p-intro {
-    font-size: 2.2rem;
-    font-style: italic;
-    text-align: center; }
-
-.inicio-container .section-index .intro-button .button .start-button {
-  font-size: 2rem;
-  text-decoration: none; }
-
-.inicio-container .section-index .carousel-format {
+.inicio-container .carousel-format {
   width: 100%;
   margin: auto;
   margin-top: 2.5rem; }
+
+.intro-p .p-intro {
+  font-size: 1.5rem;
+  text-align: justify; }
+
+.intro-button {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .intro-button .button .start-button {
+    font-size: 2rem;
+    text-decoration: none; }
+
+.p-images-home {
+  font-size: 1.5rem;
+  text-align: center; }
 
 .nosotros-container .important-titles {
   color: #17C3B2;

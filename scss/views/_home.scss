@@ -1,8 +1,7 @@
 // Home
 
 .inicio-container {
-    // flex-direction: column;
-    // margin-bottom: 20px;
+
 
     .section-index {
         
@@ -11,7 +10,7 @@
             width: $width-home;
 
             .intro-title {
-                // justify-content: center;
+            
 
                 .important-titles {
                     @include titles
@@ -20,35 +19,7 @@
             }
         }
 
-        .intro-p {
-            justify-content: center;
 
-            .p-intro {
-                font-size: map-get($fonts, paragraph);
-                font-style: italic;
-                text-align: center;
-
-            }
-        }
-
-        .intro-button {
-            // display: $display;
-            // @if $display == flex {
-            //     justify-content: center;
-            // } @else {
-            //     background-color: aqua;
-            // }
-            
-            // align-items: center;
-
-            .button {
-
-                .start-button {
-                    font-size: map-get($fonts, buttons);
-                    text-decoration: none;
-                    
-                }
-            }
         }
 
         .carousel-format {
@@ -57,4 +28,42 @@
             margin-top: 2.5rem;
         }
     }
+
+
+.intro-p {
+
+    
+
+    .p-intro {
+        font-size: map-get($fonts, paragraph);
+        text-align: justify;
+
+
+    }
+}
+
+.intro-button {
+    display: $display;
+    @if $display == flex {
+        justify-content: center;
+    } @else {
+        background-color: aqua;
+    }
+    
+    align-items: center;
+
+    .button {
+       
+        .start-button {
+            font-size: map-get($fonts, buttons);
+            text-decoration: none;
+            
+        }
+
+    }
+}
+
+.p-images-home {
+    font-size: map-get($fonts, paragraph);
+    text-align: center;
 }
