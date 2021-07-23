@@ -9,6 +9,8 @@
 
 @media (max-width: 768px) {
   .carousel {
+    display: none; }
+  .paw {
     display: none; } }
 
 header {
@@ -195,17 +197,12 @@ header {
   border-radius: 2rem;
   transition: all 2s; }
 
-.img-one:hover {
-  transform: scale(1.2); }
-
-.img-two:hover {
-  transform: scale(1.2); }
-
-.img-three:hover {
-  transform: scale(1.2); }
-
-.img-four:hover {
-  transform: scale(1.2); }
+.img-pet {
+  display: block;
+  margin: auto;
+  align-content: center; }
+  .img-pet:hover {
+    transform: scale(1.2); }
 
 .paw {
   width: 3rem;
